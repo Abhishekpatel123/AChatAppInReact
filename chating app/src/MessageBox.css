@@ -1,0 +1,130 @@
+.message-box{
+    display: grid;
+    grid-template-rows: 90px auto 90px;
+    overflow: auto;
+    background-color: #fffafa;
+
+    
+}
+.message-box  .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.message-box .top .top-left{
+    display: flex;
+}
+
+.message-box .top .top-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.message-box .top .top-left >div{
+    padding-left: 18px;
+
+}
+
+.message-box .top .top-right {
+    list-style:none;
+    display: flex;
+    align-items: center;
+}
+
+.top-right li{
+    margin-left: 20px;
+}
+
+.message-box .middle{
+    padding: 30px;
+    overflow: auto;
+}
+
+.message-box .bottom {
+    display: flex;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+
+}
+.message-box .bottom form{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 80px;
+}
+.message-box .bottom input[type="text"]{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 15px;
+    color: gray;
+    font-weight: bold;
+  }
+
+  .message-box .bottom input[type="submit"]{
+      background-color: rgb(5, 128, 177);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 10px;
+      color: white;
+      text-transform: uppercase;
+  }
+
+.right {
+    float: right;
+    border-radius: 15px 15px 0 15px;
+    /* background-image: linear-gradient(315deg, #ff85f5 0%, #bb1dff 74%); */
+    background-color: rgb(86, 101, 115);
+  }
+  .left {
+    float: left;
+    border-radius: 15px 15px 15px 0;
+    /* background-image: linear-gradient(315deg, #9397f7 0%, #db8bfd 74%); */
+    background-color: rgb(10, 10, 10);
+    border: 2px solid rgb(86, 101, 115);
+  }
+
+
+  .message{
+    /* max-width: 60%;
+    display: inline;
+    background-color: brown;
+    color: aliceblue;
+    padding: .4rem 1rem;
+    margin: 10px;
+    border-radius: 10px; */
+    position: relative;
+    padding: 8px 10px 8px 10px;
+    margin: 20px;
+    display: table;
+    clear: both;
+    max-width: 80%;
+    color: white;
+    font-size: 20px;
+    min-width: 170px;
+    font-weight: 800;
+  }
+
+  .message .name{
+    font-weight: 1000;
+    position: absolute;
+    top: -13px;
+    font-size: 10px;
+    color: black;
+    left: 0;
+  }
+
+  .message .time{
+    font-weight: 1000;
+    position: absolute;
+    top: 43px;
+    color: black;
+    font-size: 9px;
+    right: -7px;
+  }

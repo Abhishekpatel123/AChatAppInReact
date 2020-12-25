@@ -1,0 +1,53 @@
+:root{
+    --white : white;
+    --secondary : #1e1e1e;
+}
+
+.user-profile-div{
+    background-color: var(--secondary);
+    color: white;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 60px auto 80px;
+    padding: 5px 0;
+    padding: 5px 0;
+    padding-bottom: 15px;
+}
+
+.user-profile-div .top{
+    display: grid;
+    place-items: center;
+    border: transparent;
+  }
+
+.top img{
+    border-radius: 50%;
+    border: transparent;
+    background-color: wheat;
+    width: 40px;
+    height: 40px;
+  }
+
+  .middle ul , .bottom ul{
+    list-style: none;
+    display: grid;
+    place-items: center;
+  }
+
+  .middle ul li , .bottom ul li{
+  margin-top: 1rem;
+
+  }
+
+  .middle ul li a , .bottom ul li a{
+    color: var(--white);
+    text-decoration: none;
+  }
+
+ .middle ul li a i , .bottom ul li a i{
+    font-size: 1.2rem ;
+  } 
+
+
+
+

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.app{
+    background-color: #dadbd3;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.app-body{
+    background-color: white;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+    display: grid;
+   grid-template-columns: 70px 300px auto ;
+
+}
+
+.user-collection{
+    overflow: auto;
+  background-color: #f8f7f7;
+}
+
+.user-collection .search-box{
+    display: flex;
+    align-items: center;
+    background-color: #463939;
+    /* height: 39px; */
+    padding: 12px;
+}
+
+.user-collection .search-box .search-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    width: 100%;
+    height: 32px;
+}
+
+.search-box .search-container > input{
+    border: none;
+    margin-left: 10px;
+}
+.search-box .search-container i{
+    color: gray;
+    padding: 10px;
+}

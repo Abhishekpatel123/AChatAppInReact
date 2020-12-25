@@ -1,0 +1,25 @@
+.user-box{
+  padding: 13px 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.507);
+  /* background-color: rgb(218, 180, 105); */
+  display: flex;
+  cursor: pointer;
+}
+
+.user-box:hover{
+    background-color: #ebebeb;
+}
+.user-box img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-box .user-box-info{
+    margin-left: 15px;
+}
+.user-box .user-box-info h4{
+   font-size: 16px;
+   font-family:monospace;
+   margin-bottom: 7px;   
+}

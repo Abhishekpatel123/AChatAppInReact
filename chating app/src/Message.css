@@ -1,0 +1,24 @@
+.chat-message{
+    position: relative;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.chat-message span:first-child{
+    font-weight: 1000;
+    position: absolute;
+    top: -13px;
+    font-size: 8px;
+    color: black;
+}
+
+.chat-message span:last-child{
+    font-size: x-small;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+

@@ -10,18 +10,10 @@ function App(){
     return(   
         <>
         <Switch>
-            <Route path = "" component = "">
-                <WelcomePage/>
-            </Route>
-            <Route path = "" component = "">
-                <Signup/>
-            </Route>
-            <Route path = "" component = "">
-                <Login/>
-            </Route>
-            <Route path = "" component = "">
-                <ChatApp/>
-            </Route>
+            <Route exact path = "/" component = {WelcomePage}></Route>
+            <Route path = "/signup" component = {Signup}></Route>
+            <Route path = "/login" component = {Login}></Route>
+            <Route path = "/home" component = {ChatApp}></Route>
         </Switch>
         </>
         
